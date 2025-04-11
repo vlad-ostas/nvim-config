@@ -13,6 +13,10 @@ return require('packer').startup(function(use)
 		, requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+	use "neovim/nvim-lspconfig"
+
+	use "p00f/clangd_extensions.nvim"
+
 	use {
 		"catppuccin/nvim"
 		, as = "catppuccin"
