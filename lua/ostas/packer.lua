@@ -22,6 +22,8 @@ return require('packer').startup(function(use)
 		, as = "catppuccin"
 	}
 
+	use "rebelot/kanagawa.nvim"
+
 	use {
 		'nvim-treesitter/nvim-treesitter'
 		, { run = ':TSUpdate' }
