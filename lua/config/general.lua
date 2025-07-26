@@ -1,10 +1,9 @@
-require("ostas.remap")
-require("ostas.packer")
+require("config.remap")
 
 vim.cmd("set number")
 vim.cmd("set relativenumber")
 
-vim.cmd("colorscheme kanagawa-dragon")
+-- vim.cmd("colorscheme kanagawa-dragon")
 
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 4
